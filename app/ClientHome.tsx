@@ -7,7 +7,6 @@ import ServerComponent from "./ServerComponent";
 export default function ClientHome() {
   useEffect(() => {
     console.log("Client Home Component Mounted");
-    console.log('something else')
   }, []);
 
   return (
