@@ -3,7 +3,7 @@ export default async function ServerComponent() {
 
   return (
     <div>
-      <h2>Static Component</h2>
+      <h2>Server Component</h2>
       <p>This component is is a React Server Component that fetches data.</p>
       <p>{ JSON.stringify(response) }</p>
     </div>
